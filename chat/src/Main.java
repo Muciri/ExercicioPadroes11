@@ -20,6 +20,9 @@ public class Main {
         chat.sendMessage("eita pega", Felipe);
         chat.sendMessage("vai tomar no cu", Rogerio);
 
+
         Murilo.exibirMensagens();
+        System.out.println("\n-=-=-=\n");
+        Rogerio.exibirMensagens();
     }
 }
