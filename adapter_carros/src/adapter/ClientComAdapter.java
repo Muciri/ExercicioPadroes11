@@ -14,9 +14,9 @@ public class ClientComAdapter {
         System.out.println("Aston Martin top speed is " + astonMartin.getSpeed() + " Mph.");
         
         Vehicle ToyotaCross = new AutomovelBrasileiroAdapter(new ToyotaCross(), false);
-        System.out.println("Toyota Cross top speed is " + ToyotaCross.getSpeed() + " kmph.");
+        System.out.println("Toyota Cross top speed is " + ToyotaCross.getSpeed() + " Mph.");
 
         Vehicle VolkswagenVirtus = new AutomovelBrasileiroAdapter(new VolkswagenVirtus(), true);
-        System.out.println("Volkswagen Virtus top speed is " + VolkswagenVirtus.getSpeed() + " kmph.");
+        System.out.println("Volkswagen Virtus top speed is " + VolkswagenVirtus.getSpeed() + " Mph.");
     }
 }
